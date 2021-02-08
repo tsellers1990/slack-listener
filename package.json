@@ -1,0 +1,14 @@
+{
+  "name": "slack_hacker",
+  "version": "0.0.1",
+  "description": "listens to slack channel and auto executes some messages",
+  "main": "logic.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
