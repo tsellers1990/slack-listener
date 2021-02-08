@@ -24,9 +24,19 @@ function main() {
     }).then( data => {
         counter = data.number;
 
-        while (number > 0) {
-          //listen for new posts
-          //when new post seen, click nested link and message that admin "me"
+        
+        while (counter > 0) {
+            //listen for new posts
+            //when new post seen, click nested link and message that admin "me"
+
+            //if newPost exists
+            if (counter > 50) {
+                //click link and send message
+                console.log(counter)
+                counter--
+            } else {
+                console.log("No new posts")
+            }
         }
     })
 
